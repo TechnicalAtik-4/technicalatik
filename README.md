@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Welcome to Technical Atik's Portfolio! 🚀
 
-# Run and deploy your AI Studio app
+![Technical Atik Logo](https://raw.githubusercontent.com/TechnicalAtik-4/technicalatik/main/png/cropped-Hi-Im-Technical-Ati-logo--300x300.png)
 
-This contains everything you need to run your app locally.
+Hello there! I'm MD ATIK, also known as **Technical Atik**. I am a professional freelancer, graphic designer, video editor, and technical analyst based in Mymensingh, Bangladesh. 
 
-View your app in AI Studio: https://ai.studio/apps/a6e9d785-ab3a-4101-80f6-90b9912efd24
+## About Me 🌟
 
-## Run Locally
+I identify as a "Technical Boy" with a strong passion for computer programming, UI/UX design, and SEO. I constantly strive to deliver premium digital experiences and high-quality visual content.
 
-**Prerequisites:**  Node.js
+## Skills & Expertise 🛠️
 
+- **Graphic Design & Video Editing:** Proficient in Adobe Photoshop, Adobe Premiere Pro, Adobe After Effects, and Filmora.
+- **Web Development & UI/UX:** Experienced in creating aesthetic and scalable web architectures.
+- **SEO & Content Strategy:** Dedicated to optimizing digital content for maximum visibility and engagement.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Connect with Me 🌐
+
+- **Professional Branding:** Technical Atik, Raihan X Tools, and RaihanFoo.
+- **Content Channels:** Fox -X & MistiMoy Animation on YouTube.
+
+Feel free to explore my work and reach out for collaborations!
