@@ -1,0 +1,8 @@
+{
+  "name": "Technical Atik Portfolio",
+  "description": "A modern, highly interactive personal portfolio for Technical Atik featuring a dark theme with deep green accents, typewriter effects, and scroll animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

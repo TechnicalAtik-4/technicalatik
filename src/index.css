@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@keyframes float {
+  0% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(150px, -150px) scale(1.2); }
+  66% { transform: translate(-100px, 150px) scale(0.8); }
+  100% { transform: translate(0px, 0px) scale(1); }
+}
+
+@keyframes float-reverse {
+  0% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(-150px, 150px) scale(0.8); }
+  66% { transform: translate(100px, -150px) scale(1.2); }
+  100% { transform: translate(0px, 0px) scale(1); }
+}
+
+.animate-float {
+  animation: float 20s infinite alternate ease-in-out;
+}
+
+.animate-float-reverse {
+  animation: float-reverse 22s infinite alternate ease-in-out;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+.glass-panel {
+  background-color: rgba(10, 10, 10, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(20, 184, 166, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.glass-panel:hover {
+  border-color: rgba(20, 184, 166, 0.4);
+}
