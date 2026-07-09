@@ -16,7 +16,7 @@ I identify as a "Technical Boy" with a strong passion for computer programming, 
 
 ## Connect with Me 🌐
 
-- **Professional Branding:** Technical Atik, Raihan X Tools, and RaihanFoo.
-- **Content Channels:** Fox -X & MistiMoy Animation on YouTube.
+- **Professional Branding:** Technical Atik, The Aesthetic Choice .
+- **Content Channels:** Technical Atik vlog .
 
 Feel free to explore my work and reach out for collaborations!
