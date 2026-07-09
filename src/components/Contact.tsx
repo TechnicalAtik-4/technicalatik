@@ -1,5 +1,6 @@
+import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
-import { Mail, MapPin, Send, Youtube, Linkedin, Facebook, Instagram, Twitter, Twitch, Ghost, Phone } from 'lucide-react';
+import { Mail, MapPin, Send, Youtube, Linkedin, Facebook, Instagram, Twitter, Twitch, Ghost, Phone, Users } from 'lucide-react';
 
 const socialLinks = [
   { name: 'YouTube', url: 'https://www.youtube.com/@TechnicalAtikVlog', icon: <Youtube size={22} /> },
@@ -26,6 +27,18 @@ const itemVariants = {
 
 export function Contact() {
   const headline = "Let's Build Something Extraordinary";
+  const [visitors, setVisitors] = useState(42);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setVisitors(prev => {
+        const change = Math.floor(Math.random() * 3) - 1; // -1, 0, or 1
+        const next = prev + change;
+        return Math.max(35, Math.min(85, next));
+      });
+    }, 5000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <section id="contact" className="py-24 px-4 relative mt-12 overflow-hidden">
@@ -188,8 +201,19 @@ export function Contact() {
           </div>
         </motion.div>
 
-        <div className="mt-20 text-center text-gray-600 text-sm">
-          <p>© {new Date().getFullYear()} Technical Atik. Crafted with precision & passion.</p>
+        <div className="mt-20 flex flex-col items-center gap-6">
+          <div className="glass-panel px-6 py-2 rounded-full border border-teal-500/30 flex items-center gap-3 shadow-[0_0_15px_rgba(20,184,166,0.1)]">
+            <span className="relative flex h-3 w-3">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-teal-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-3 w-3 bg-teal-500"></span>
+            </span>
+            <Users size={16} className="text-teal-400" />
+            <span className="text-gray-300 text-sm font-medium">Live Visitors: <span className="text-teal-400 font-bold">{visitors}</span></span>
+          </div>
+          
+          <div className="text-center text-gray-600 text-sm">
+            <p>© {new Date().getFullYear()} Technical Atik. Crafted with precision & passion.</p>
+          </div>
         </div>
       </div>
     </section>

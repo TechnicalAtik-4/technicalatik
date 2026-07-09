@@ -1,6 +1,9 @@
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
+import { Services } from './components/Services';
+import { Portfolio } from './components/Portfolio';
+import { Blog } from './components/Blog';
 import { Skills } from './components/Skills';
 import { Experience } from './components/Experience';
 import { Hobbies } from './components/Hobbies';
@@ -21,6 +24,9 @@ export default function App() {
       <main className="relative z-0">
         <Hero />
         <About />
+        <Services />
+        <Portfolio />
+        <Blog />
         <Skills />
         <Experience />
         <Hobbies />
